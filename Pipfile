@@ -8,3 +8,4 @@ python_version = '3.6.5'
 
 [packages]
 django = "*"
+social-auth-app-django = "*"
