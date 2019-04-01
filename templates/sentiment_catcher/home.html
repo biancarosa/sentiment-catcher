@@ -3,4 +3,8 @@
 {% block content %}
   <h2>Homepage</h2>
   <p>Hello {{ user.username }}!</p>
+  {% for tweet in tweets %}
+    {{ tweet }}
+    <br/>
+  {% endfor %}
 {% endblock %}
